@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+	"todomvc-app-css": "^1.0.0",
+	"knockout": "latest",
+	"todomvc-common": "^1.0.1",
+	"director": "^1.2.0",
+	"deepstream.io-client-js": "latest",
+	"deepstream.io-tools-ko": "latest"
+  }
+}
