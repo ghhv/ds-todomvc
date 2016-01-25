@@ -100,6 +100,7 @@
 					completed: false,
 					editing: false
 				});
+				ds.event.emit( '$slack:outbound-xa32asfd', current );
 				this._todoList.addEntry( id );
 				this.current('');
 			}
@@ -185,7 +186,7 @@
 	};
 
 	var koTools = new KoTools( ko );
-	var ds = deepstream( 'localhost:6020' ).login({}, function(){
+	var ds = deepstream( '52.58.21.116:6020' ).login({}, function(){
 		var viewModel = new ViewModel();
 		ko.applyBindings(viewModel);
 
